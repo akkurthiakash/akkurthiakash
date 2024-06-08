@@ -1,5 +1,0 @@
-def reverse_integer(x):
-    if x < 0:
-        return int(str(x)[0] + str(x)[:0:-1])
-    else:
-        return int(str(x)[::-1])
